@@ -1,0 +1,73 @@
+.list-item {
+    width: 500px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: .3rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-bottom: .5rem;
+}
+
+.list-item .row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.list-item .row a {
+    padding: .3rem .5rem;
+    background-color: crimson;
+    color: white;
+    border-radius: .3rem;
+
+    transition: all .25s ease-in-out;
+}
+
+.list-item .row a:hover {
+    filter: brightness(.7);
+}
+
+.description {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+
+.w-60 {
+    width: 60%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.pr-2 {
+    padding-right: 1rem;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.mb-2 {
+    margin-bottom: 1rem;
+}
+
+.mt-5 {
+    margin-top: 2rem;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-items: center;
+}

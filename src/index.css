@@ -17,11 +17,13 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: crimson;
   text-decoration: inherit;
+  
+  transition: all 1s;
 }
 a:hover {
-  color: #535bf2;
+  filter: brightness(0.9);
 }
 
 body {
